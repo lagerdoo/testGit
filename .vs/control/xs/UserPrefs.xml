@@ -1,0 +1,37 @@
+﻿<Properties StartupConfiguration="{135A6089-8C09-4C96-A89A-24B1EA458FD7}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="control/page2.xaml">
+    <Files>
+      <File FileName="control/MainPage.xaml" Line="67" Column="35" />
+      <File FileName="control/MainPage.xaml.cs" />
+      <File FileName="control/page2.xaml" Line="6" Column="27" />
+      <File FileName="control/page2.xaml.cs" />
+      <File FileName="control/page3.xaml" />
+      <File FileName="control/page1.xaml" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="control" expanded="True">
+            <Node name="control" expanded="True">
+              <Node name="images" expanded="True" />
+              <Node name="MainPage.xaml" expanded="True" />
+              <Node name="page2.xaml" expanded="True" selected="True" />
+            </Node>
+            <Node name="control.Android" expanded="True">
+              <Node name="Assets" expanded="True" />
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.control.Android PreferredExecutionTarget="Android.pixel_2_xl_pie_9_0_-_api_28" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.control.iOS FirstBuild="True" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

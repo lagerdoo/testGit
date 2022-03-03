@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+     xmlns:local="clr-namespace:control"
+    x:Class="control.page2">
+    <ContentPage.Content>
+       <StackLayout>
+            <Frame Padding="3" BackgroundColor="#194960" HeightRequest="300">
+                 <Image Source="{local:imageResource control.images.2.jpeg}" />
+            </Frame>
+           <FlexLayout BackgroundColor="#194960" Padding="5" Margin="2">        
+          <Frame  BackgroundColor="Wheat" Padding="3" Margin="10" HeightRequest="200">
+              <Image Source="{local:imageResource control.images.2.jpeg}" />
+          </Frame>
+           <StackLayout Margin="30,10,10,10">
+               <Label Text="Movie1" TextColor="#FFF" FontAttributes="Bold" FontSize="Title" TextType="Text"/>
+              <Frame CornerRadius="30" WidthRequest="150" BackgroundColor="Gray" HeightRequest="20">
+                  <Label Text="ACTION" TextColor="#FFF" FontAttributes="Bold" FontSize="Body" /></Frame>
+               <Label Text="8.1 ⭐️" TextColor="Gold"/>
+               <Label Text="English" TextColor="#FFF"/>
+               <Label Text="2h 10min" TextColor="#FFF"/>
+              
+           </StackLayout>
+         
+       </FlexLayout>
+          <StackLayout BackgroundColor="#194960" HeightRequest="150">              
+              <Label Text="Details:" TextColor="#FFF" FontSize="Title"/>                           
+          </StackLayout>
+        </StackLayout>
+       
+
+    </ContentPage.Content>
+</ContentPage>
